@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genc Handson</title>
+      <!--compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Html & CSS</h2>
+    <h4>Simple Calculator</h4>
+    <div class="container">
+        <div id="carousel-demo2" class="carousel slide" data-ride="carousel">
+          <!-- Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-demo2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-demo2" data-slide-to="1"></li>
+          </ol>
+          <!-- Carousel Items -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/gencHO1.jpg" class="" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="img/gencHO2.jpg" alt="">
+            </div>
+          </div>
+          <!-- Carousel Left and Right Controls -->
+          <a href="#carousel-demo2" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#carousel-demo2" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Code</button>
+      <div id="demo1" class="collapse">
+        <code>
+<pre class="code-fullwidth">
+    &lt!DOCTYPE html>
+    &lthtml lang="en">
+    &lthead>
+        &ltmeta charset="UTF-8">
+        &ltmeta name="viewport" content="width=device-width, initial-scale=1.0">
+        &lttitle>CALCULATOR&lt/title>
+    &lt/head>
+    &ltbody>
+        &ltfont color="blue" size="20">Calculator&lt/font>
+        &ltimg src="calculator.jpg" alt="calculator" style="height: 80px; width: 80px;">
+        &ltlabel for="input1">Input1&lt/label>
+        &ltinput type="number" name="input1" id="input1">
+        &ltlabel for="input2">Input2&lt/label>
+        &ltinput type="number" name="input2" id="input2">
+        &ltlabel for="operation">Select Operation&lt/label>
+        &ltselect name="operation" id="operation">
+            &ltoption value="Select..">Select..&lt/option>
+            &ltoption value="ADD">ADD&lt/option>
+            &ltoption value="SUBTRACT">SUBTRACT&lt/option>
+            &ltoption value="MULTIPLY">MULTIPLY&lt/option>
+            &ltoption value="DIVIDE">DIVIDE&lt/option>
+        &lt/select>
+        &ltimg src="calc.jpg" alt="submit" style="height: 80px; width: 80px;">
+        &ltimg src="reset.jpg" alt="reset" style="height: 80px; width: 80px;">
+    &lt/body>
+    &lt/html>
+</pre>
+          </code>
+      </div>
+
+
+
+<h4>Learning Material Styling</h4>
+<div class="container">
+    <div id="carousel-demo3" class="carousel slide" data-ride="carousel">
+    <!-- Carousel Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-demo3" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo3" data-slide-to="1"></li>
+        <li data-target="#carousel-demo3" data-slide-to="23"></li>
+    </ol>
+    <!-- Carousel Items -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="img/gencHO3.jpg" class="" alt="">
+        </div>
+        <div class="carousel-item">
+        <img src="img/gencHO3.1.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="img/gencHO3.2.jpg" alt="">
+            </div>
+    </div>
+    <!-- Carousel Left and Right Controls -->
+    <a href="#carousel-demo3" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#carousel-demo3" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Code</button>
+<div id="demo2" class="collapse">
+    <code>
+<pre class="code-fullwidth">
+    &lt!DOCTYPE html>
+    &lthtml>
+    &lthead>
+    
+     &ltlink rel="stylesheet" href="LearningMaterial.css">
+    
+    &lt/head>
+    &ltbody>
+        &lth1>Why to Learn java Programming?&lt/h1>
+        &ltdiv>
+            &ltp title="Java Programming">Java is a MUST for students and working professionals
+                to become a great Software Engineer specially when they are working
+                in Software Development Domain. I will list down some of the key
+                advantages of learning Java Programming:&lt/p>
+    
+            &ltdl>
+                &ltdt class="reasons">Object Oriented&lt/dt>
+                &ltdd id="description01">In Java, everything is an Object. Java can be easily
+                    extended since it is based on the Object model.&lt/dd>
+                &ltdt class="reasons">Platform Independent&lt/dt>
+                &ltdd id="description02">Unlike many other programming languages including C and C++,
+                    when Java is compiled, it is not compiled into platform specific
+                    machine, rather into platform independent byte code. This byte code
+                    is distributed over the web and interpreted by the Virtual Machine
+                    (JVM) on whichever platform it is being run on.&lt/dd>
+    
+                &ltdt class="reasons">Simple&lt/dt>
+                &ltdd id="description03">Java is designed to be easy to learn. If you understand the
+                    basic concept of &ltem>OOP Java&lt/em>, it would be easy to master.&lt/dd>
+                &ltdt class="reasons">Secure&lt/dt>
+                &ltdd id="description04">With Java's secure feature it enables to develop virus-free,
+                    tamper-free systems. Authentication techniques are based on
+                    public-key encryption.&lt/dd>
+                &ltdt class="reasons" >Architecture-neutral&lt/dt>
+                &ltdd id="description05">Java compiler generates an architecture-neutral object file
+                    format, which makes the compiled code executable on many processors,
+                    with the presence of Java runtime system.&lt/dd>
+                &ltdt class="reasons" >Portable&lt/dt>
+                &ltdd id="description06">Being architecture-neutral and having no implementation
+                    dependent aspects of the specification makes Java portable. &ltem>Compiler
+                    in Java is written in ANSI C&lt/em> with a clean portability boundary,
+                    which is a POSIX subset.&lt/dd>
+                &ltdt class="reasons">Robust&lt/dt>
+                &ltdd id="description07">Java makes an effort to eliminate error prone situations by
+                    emphasizing mainly on compile time error checking and runtime
+                    checking.&lt/dd>
+    
+            &lt/dl>
+        &lt/div>
+    &lt/body>
+    &lt/html>
+
+
+    STYLE.CSS
+
+
+
+    body{
+        background-color: #00FFFF;
+        font-family: arial;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    dd{
+        font-size: 1.5em;
+    }
+    p{
+        color: #FF0000;
+        font-size: 1.7em;
+        line-height: 1.5;
+    }
+    .reasons{
+        color: #FF0F70;
+        font-weight: bold;
+        line-height: 1.5;
+        font-size: 1.5em;
+        
+    }
+    #description01{
+        font-style: italic;
+        color: #F500FF;
+    }
+    #description07{
+        font-style: italic;
+        color: #FF4500;
+        font-weight: bold;
+    }
+    em{
+        color: #FF0000;
+        font-weight: bold;
+        background-color: #00FFFF;
+    }
+    
+</pre>
+    </code>
+</div>
+
+<h4>FeedBack Details</h4>
+<div class="container">
+    <div id="carousel-demo4" class="carousel slide" data-ride="carousel">
+      <!-- Carousel Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo4" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo4" data-slide-to="1"></li>
+        <li data-target="#carousel-demo4" data-slide-to="2"></li>
+        <li data-target="#carousel-demo4" data-slide-to="3"></li>
+      </ol>
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gencHO4.1.jpg" class="" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gencHO4.2.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="img/gencHO4.3.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/gencHO4.4.jpg" alt="">
+          </div>
+      </div>
+      <!-- Carousel Left and Right Controls -->
+      <a href="#carousel-demo4" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo4" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">Code</button>
+  <div id="demo3" class="collapse">
+    <code>
+<pre class="code-fullwidth">
+
+    <strong>index.html</strong> 
+    &lthtml>
+        &lthead>
+          &ltscript src="script.js" type="text/javascript"> &lt/script>
+        &lt/head>
+        &ltbody> 
+          &lth2>Feedback for the ART OF LIVING session&lt/h2>
+          &lttable>
+              &lttr>
+                  &lttd>Enter the Feedback&lt/td>
+                  &lttd>&lttextarea id="feedback" type="text">&lt/textarea>&lt/td>
+              &lt/tr>
+              &lttr>
+                  &lttd>&ltbutton id="create" onclick="addFeedback()">Add Feedback&lt/button>&lt/td>
+              &lt/tr>
+              &lttr>
+                  &lttd>&ltbutton id="view" onclick="displayFeedback()">View Feedback&lt/button>&lt/td>
+              &lt/tr>
+          &lt/table>
+          &ltdiv id="result" >&lth2>Feedback Details&lt/h2>&lt/div>
+        &lt/body>
+      &lt/html>
+
+      <strong>script.js</strong> 
+      var Feedback=[];
+      function addFeedback(){
+          var string=document.getElementById("feedback").value;
+          Feedback.push(string);
+       document.getElementById("feedback").value = "";
+          document.getElementById("result").innerHTML = "&lth2>" + "Feedback Details " + "&lt/h2>"+"Successfully Added Feedback Details!";
+      }
+       
+      function displayFeedback(){
+          document.getElementById("result").innerHTML="";
+        document.getElementById("result").innerHTML += "&lth2>" + "Feedback Details " + "&lt/h2>";
+          for (var i=0;i&ltFeedback.length;i++) {
+              document.getElementById("result").innerHTML += "Feedback " + (i+1) + "&ltbr>"+Feedback[i]+"&ltbr>";
+          }
+          Feedback=[];
+      }
+</pre>
+      </code>
+  </div>
+
+
+  <h4>Bill Calculator</h4>
+<div class="container">
+    <div id="carousel-demo5" class="carousel slide" data-ride="carousel">
+ 
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo5" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo5" data-slide-to="1"></li>
+        <li data-target="#carousel-demo5" data-slide-to="2"></li>
+        <li data-target="#carousel-demo5" data-slide-to="3"></li>
+      </ol>
+     
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gencHO5.1.jpg" class="" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gencHO5.2.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="img/gencHO5.3.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/gencHO5.4.jpg" alt="">
+          </div>
+      </div>
+ 
+      <a href="#carousel-demo5" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo5" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo5">Code</button>
+  <div id="demo5" class="collapse">
+    <code>
+<pre class="code-fullwidth">
+
+    <strong>index.html</strong> 
+
+    &lt!DOCTYPE html>
+    &lthtml>
+     &lthead>
+            &lttitle>Bill Calculator&lt/title>
+            &ltlink rel="stylesheet" href="billcalc.css">
+            &ltscript >
+            function calculateTotalPrice()
+            {
+                var a=document.getElementById("price").value;
+              var  b=document.getElementById("qty").value;
+                document.getElementById("totalprice").innerHTML=a*b;
+      return false; 
+            }
+        &lt/script>
+        &lt/head>
+       &ltbody>
+           &lth1>Bill Calculator&lt/h1>
+           &ltform onsubmit="return calculateTotalPrice(); return false;">
+           &lttable>
+               &lttr>
+                &lttd>&ltlable for="productName">Product Name&lt/lable>&lt/td>
+                   &lttd>&ltinput type="text" id="productName" placeholder="Product Name"  required>&lt/td>
+               &lt/tr>
+               &lttr>
+                   &lttd>&ltlabel for="price">Product Price in Rs.&lt/label>&lt/td>
+                   &lttd>&ltinput type="number" id="price" placeholder="Product Price"  required min="1">&lt/td>
+               &lt/tr>
+               &lttr>
+                   &lttd>&ltlabel for="qty">Quantity&lt/label>&lt/td>
+                   &lttd>&ltinput type="number" id="qty" placeholder="Enter quantity"  required>&lt/td>
+               &lt/tr>
+               &lttr>
+                   &lttd>&ltlabel for="totalprice">Total Price in Rs.&lt/label>&lt/td>
+                   &lttd>&ltoutput id="totalprice" name="totalprice" for="price qty" required>&lt/output>&lt/td>
+               &lt/tr>
+               &lttr>
+                   &lttd colspan="2">&ltinput type="submit" id="submit">&lt/td>
+               &lt/tr>
+           &lt/table>
+           &lt/form>
+       &lt/body>
+    &lt/html>
+    <strong>style.css</strong> 
+    h1{
+        text-align:center;
+        color:#FF00FF;
+        font-style:italic;
+        font-weight:bold;
+      }
+     
+      table{
+          text-align:left;
+          margin-left:35%;
+          border-spacing:10px;
+          border-width:10%;
+          border-style:solid;
+          background-color:#F899A4;
+          
+     
+      }
+      td{
+          border-style:ridge;
+          padding:10px;
+      }
+</pre>
+      </code>
+  </div>
+
+  <h4>Trainer Feedback Rating Chart</h4>
+  <div class="container">
+    <div id="carousel-demo6" class="carousel slide" data-ride="carousel">
+ 
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo6" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo6" data-slide-to="1"></li>
+ 
+      </ol>
+     
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gencHO6.1.jpg" class="" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gencHO6.2.jpg" alt="">
+        </div>
+        
+      </div>
+ 
+      <a href="#carousel-demo6" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo6" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo6">Code</button>
+  <div id="demo6" class="collapse">
+    <code>
+<pre class="code-fullwidth">
+
+    <strong>index.html</strong> 
+    &lt!DOCTYPE HTML>
+    &lthtml>
+        &lthead>
+            &lttitle>Trainer's Feedback Rating Chart&lt/title>
+         &ltlink rel="stylesheet" href="trainerfeedbackchart.css">
+        &lt/head>
+        &ltbody>
+        
+          &ltdiv class="foot">
+            &ltform>
+            
+            &lth1>Trainer's Feedback Rating Chart&lt/h1>
+           
+                &lttable id="chart">
+                    &ltcaption>Trainer's Name: Elite Parker&lt/caption>		      
+                    &lttr class="theader" >
+                        &ltth>S.No.&lt/th>
+                        &ltth>Training Module Name&lt/th>
+                        &ltth>Overall Rating&lt/th>
+                         &ltth>Feedback&lt/th>
+                    &lt/tr>
+                    &lttr class="tr1" >
+                        &lttd>1&lt/td>
+                        &lttd>HTML5, CSS3, JavaScript&lt/td>
+                        &lttd>5&lt/td>
+                        &lttd id="ex1" >Excellent&lt/td>
+                        
+                    &lt/tr>
+                    &lttr class="tr2">
+                        &lttd>2&lt/td>
+                        &lttd>Basic Java Programming&lt/td>
+                        &lttd>4&lt/td>
+                         &lttd id="vg1">Very Good&lt/td>
+                    &lt/tr>
+                    &lttr class="tr1">
+                        &lttd>3&lt/td>
+                        &lttd>Advanced Java Programming&lt/td>
+                        &lttd>3&lt/td>
+                         &lttd id="go1">Good&lt/td>
+                    &lt/tr>
+                     &lttr class="tr2">
+                        &lttd>4&lt/td>
+                        &lttd>UNIX Shell Scripting&lt/td>
+                        &lttd>2&lt/td>
+                         &lttd id="av1">Average&lt/td>
+                    &lt/tr>
+                     &lttr class="tr1">
+                        &lttd>5&lt/td>
+                        &lttd>Python Programming&lt/td>
+                        &lttd>1&lt/td>
+                         &lttd id="ba1" >Below Average&lt/td>
+                    &lt/tr>
+                &lt/table>
+               
+              &lt/form>
+            &lt/div> 
+          
+        &lt/body>
+    &lt/html>
+
+    <strong>style.css</strong> 
+
+    h1{
+       
+        text-align: center;
+        color: #FF00FF;
+        font-style: italic;
+     }
+    
+     table{
+       
+         text-align: left;
+         margin-left: 35%;
+         background-color: #F0F0F0;
+     }
+     
+     td{
+       
+         text-align: center; 
+     }
+     
+     caption {
+          
+          text-align: left;
+          font-weight: bold;
+     }
+     
+     
+     .theader {
+    
+          background-color: #800000;
+          font-weight: bold;
+          color: white;
+     }
+     
+     .tr1{
+          
+          background-color: #ff0080;
+     }
+     
+     .tr2{
+    
+          background-color: #00FFFF;
+     }
+     
+     #ex1, #vg1{
+    
+          background-color: #00ff00;
+     }
+     
+     #go1{
+         
+         background-color: #ffff00;
+     }
+     
+     #av1{
+    
+          background-color: #d3d3d3;
+          color: #ffffff;
+     }
+     
+      #ba1{
+          
+        background-color: #ff0000;
+        color: #ffffff;
+          
+      }
+     
+</pre>
+      </code>
+  </div>
+
+
+  <h4>Rate Card For Boat Riding</h4>
+  <div class="container">
+    <div id="carousel-demo7" class="carousel slide" data-ride="carousel">
+ 
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo7" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo7" data-slide-to="1"></li>
+        <li data-target="#carousel-demo7" data-slide-to="2"></li>
+      </ol>
+     
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gencHO7.1.jpg" class="" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gencHO7.2.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="img/gencHO7.3.jpg" alt="">
+          </div>
+      </div>
+ 
+      <a href="#carousel-demo7" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo7" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo7">Code</button>
+  <div id="demo7" class="collapse">
+    <code>
+<pre class="code-fullwidth">
+
+    <strong>index.html</strong> 
+    &lt!DOCTYPE html>
+    &lthtml>
+    &lthead>
+     &ltstyle type="text/css">
+            #ratecard {
+                display: block;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #00FF00;
+                outline-style: inset;
+                outline-color: #FF0000;
+                background-color: #00FFFF;
+                padding: 2px;
+                margin-top: 2%;
+                margin-left: 30%;
+                width: 485px;
+                height: 250px;
+                text-align: justify;
+            }
+    
+            td {
+                padding: 7px;
+                border-bottom-style: double;
+                border-color: #808080;
+            }
+    
+            caption {
+                background-color: red;
+                font-size: x-large;
+            }
+    
+            th {
+                background-color: silver;
+                padding: 7px;
+                border-bottom-style: double;
+                border-color: #808080;
+                text-align: center;
+            }
+    
+            .col2 {
+                text-align: center;
+            }
+    
+            .container {
+                column-count: 3;
+                column-width: 100px;
+                column-gap: 10px;
+                margin: 5%;
+            }
+        &lt/style>
+    
+    &lt/head>
+    &ltbody >
+    
+            
+              &ltdiv id="ratecard">
+                &lttable id="package">
+                    &ltcaption>Rate Card For Boat Riding&lt/caption>
+                    &lttr>
+                        &ltth>Boat Type&lt/th>
+                        &ltth>Charges Per Trip (in Rs.)&lt/th>
+                        &ltth>Per Trip Duration&lt/th>
+                    &lt/tr>
+                    &lttr>
+                        &lttd>2 Seater Pedal Boat&lt/td>
+                        &lttd class="col2">240&lt/td>
+                        &lttd>30 Minutes&lt/td>
+                    &lt/tr>
+                    &lttr>
+                        &lttd>4 Seater Pedal Boat&lt/td>
+                        &lttd class="col2">260&lt/td>
+                        &lttd>30 Minutes&lt/td>
+                    &lt/tr>
+                    &lttr>
+                        &lttd>4 Seater Row Boat&lt/td>
+                        &lttd class="col2">250&lt/td>
+                        &lttd>30 Minutes&lt/td>
+                    &lt/tr>
+                    
+                     &lttr>
+                        &lttd>8 Seater Motor Boat&lt/td>
+                        &lttd class="col2">560&lt/td>
+                        &lttd>30 Minutes&lt/td>
+                    &lt/tr>
+                    &lttr>
+                        &lttd>15 Seater Motor Boat&lt/td>
+                        &lttd class="col2">990&lt/td>
+                        &lttd>30 Minutes&lt/td>
+                    &lt/tr>
+                    &lt/table>
+               &lt/div>
+               
+               &ltdiv class="container">
+               &lth1>Indian destination for a houseboat experience&lt/h1>
+               &ltp>
+               A holiday in a houseboat is one of the best ways to enjoy life on the slow lane. They offer an opportunity to enjoy the changing and unfamiliar surroundings from the comforts you expect in a land-based hotel or resort. Moreover, travelling in a houseboat through India’s lakes and backwaters across diverse geographical zones can be a unique experience.
+                &lt/p>
+               &ltp>	
+                The first Indian destination for a houseboat experience that comes to the mind is Srinagar in Jammu and Kashmir. Dal Lake, in the heart of the city, is one of the top draws and hence a large number of houseboats can be seen moored here. Those who want to stay in slightly less crowded surroundings opt for the houseboats on the Nigeen Lake. The houseboats offer a range of amenities depending on its category, from budget to luxury. Most houseboats come with a ‘dunga’ in tow. The houseboats for guests offer accommodation, dining hall, etc. But cooking and other guest-related serviced are undertaken in the more functional dunga. The ‘shikara’ boats are the lifeline of this water-world. They not only ferry local passengers but also serve as water taxis for those living in the houseboats. You may also hire one of the luxury shikaras for a round of the lake. Many houseboats have their own shikaras.
+               &lt/p>
+               &lt/div>
+    &lt/body>
+    
+    &lt/html>
+</pre>
+      </code>
+  </div>
+
+<h2>JavaScript</h2>
+<h4>Fixed And Reducing Interest Loan Estimator</h4>
+<div class="container">
+  <div id="carousel-demo8" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-demo8" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-demo8" data-slide-to="1"></li>
+      <li data-target="#carousel-demo8" data-slide-to="2"></li>
+      <li data-target="#carousel-demo8" data-slide-to="3"></li>
+      <li data-target="#carousel-demo8" data-slide-to="4"></li>
+      <li data-target="#carousel-demo8" data-slide-to="5"></li>
+    </ol>
+   
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/gencHO8.1.jpg" class="" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/gencHO8.2.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+          <img src="img/gencHO8.3.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="img/gencHO8.4.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/gencHO8.5.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/gencHO8.6.jpg" alt="">
+          </div>
+    </div>
+
+    <a href="#carousel-demo8" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#carousel-demo8" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo8">Code</button>
+<div id="demo8" class="collapse">
+  <code>
+<pre class="code-fullwidth">
+
+  <strong>index.html</strong> 
+  &lt!DOCTYPE html>
+  &lthtml lang="en">
+  &lthead>
+      &lttitle>Reducing Interest Loan Estimation&lt/title>
+      &ltstyle type="text/css">
+          h2 {
+              text-align: center;
+              color: #FF0000;
+              font-style: italic;
+              font-weight: bold;
+          }
+  
+          table {
+              text-align: left;
+              background-color: #FFE77A;
+              padding: 10px;
+          }
+  
+          thead {
+              text-align: center;
+          }
+  
+          #tablemain {
+              margin-left: 35%;
+          }
+  
+          #Estimate {
+              background-color: #F1F334;
+              color: #000000;
+              font-size: 15px;
+              height: 35px;
+              width: 100px;
+          }
+      &lt/style>
+  &lt/head>
+  &ltbody>
+  &lth2>Reducing Interest Loan Estimation&lt/h2>
+  &lttable id="tablemain">
+      &lttbody>
+      &lttr>
+          &lttd>
+              &lttable>
+                  &lttbody>
+                  &lttr>
+                      &lttd>
+                          &ltlabel for="principalAmount">Principal Loan Amount (Rs.)&lt/label>
+                      &lt/td>
+                      &lttd>
+                          &ltinput type="text" id="principalAmount" placeholder="Principal Amount" required>
+                      &lt/td>
+                  &lt/tr>
+                  &lttr>
+                      &lttd>
+                          &ltlabel for="interestRate">Interest Rate (%)&lt/label>
+                      &lt/td>
+                      &lttd>
+                          &ltinput type="text" id="interestRate" placeholder="Interest Per Annum" required>
+                      &lt/td>
+                  &lt/tr>
+                  &lttr>
+                      &lttd>
+                          &ltlabel for="tenure">Tenure (in months)&lt/label>
+                      &lt/td>
+                      &lttd>
+                          &ltinput type="text" id="tenure" placeholder="Tenure in Months" required>
+                      &lt/td>
+                  &lt/tr>
+  
+                  &lttr>
+                      &lttd>&lt/td>
+                      &lttd align="left" style="padding: 10px">
+                          &ltinput id="Estimate" type="button" value="Estimate" onclick="EstimateReducingInterestLoan()">
+                      &lt/td>
+                  &lt/tr>
+                  &lt/tbody>
+              &lt/table>
+          &lt/td>
+      &lt/tr>
+      &lttr>
+          &lttd>
+              &lttable border="1">
+                  &ltcaption>&ltb>Loan Estimation&lt/b>&lt/caption>
+                  &ltthead>
+                  &lttr>
+                      &ltth>Details&lt/th>
+                      &ltth>Reducing Interest Loan&lt/th>
+                      &ltth>Fixed Interest Loan&lt/th>
+                  &lt/tr>
+                  &lt/thead>
+                  &lttbody>
+                  &lttr>
+                      &lttd>Total Interest Rs.&lt/td>
+                      &lttd>
+                          &ltoutput id="tInterest">&lt/output>
+                      &lt/td>
+                      &lttd>
+                          &ltoutput id="tInterestFixed">&lt/output>
+                      &lt/td>
+                  &lt/tr>
+                  &lttr>
+                      &lttd>Total Payment Rs.&lt/td>
+                      &lttd>
+                          &ltoutput id="tPayment">&lt/output>
+                      &lt/td>
+                      &lttd>
+                          &ltoutput id="tPaymentFixed">&lt/output>
+                      &lt/td>
+                  &lt/tr>
+                  &lttr>
+                      &lttd>Monthly EMI Rs.&lt/td>
+                      &lttd>
+                          &ltoutput id="EMI">&lt/output>
+                      &lt/td>
+                      &lttd>
+                          &ltoutput id="EMIFixed">&lt/output>
+                      &lt/td>
+                  &lt/tr>
+                  &lt/tbody>
+              &lt/table>
+          &lt/td>
+      &lt/tr>
+      &lt/tbody>
+  &lt/table>
+  &ltscript src="Estimation.js">&lt/script>
+  &lt/body>
+  &lt/html>
+
+  <strong>script.js</strong> const _principalAmount = document.getElementById("principalAmount");
+  const _interestRateYear = document.getElementById("interestRate");
+  const _tenureMonth = document.getElementById("tenure");
+  
+  function getEmiReducing(P, N, R) {
+      return (P * R * (Math.pow((1 + R), N) / (Math.pow((1 + R), N) - 1)));
+  }
+  
+  function EstimateReducingInterestLoan() {
+      calculateEMI();
+      totalPayment();
+      totalInterest();
+      EstimateFixedInterestLoan();
+  }
+  
+  function EstimateFixedInterestLoan() {
+      const principalAmount = Number(_principalAmount.value);
+      const interestRateYear = Number(_interestRateYear.value);
+      const tenureMonth = Number(_tenureMonth.value);
+  
+      const totalInterestFixed = principalAmount * interestRateYear * tenureMonth / 1200;
+      const totalPaymentFixed = principalAmount + totalInterestFixed;
+      const emiFixed = totalPaymentFixed / tenureMonth;
+  
+      document.getElementById("tInterestFixed").innerHTML = Number(totalInterestFixed).toFixed(2).toString();
+      document.getElementById("tPaymentFixed").innerHTML = Number(totalPaymentFixed).toFixed(2).toString();
+      document.getElementById("EMIFixed").innerHTML = Number(emiFixed).toFixed(2).toString();
+  }
+  
+  function reducingLoan() {
+      const principalAmount = Number(_principalAmount.value);
+      const interestRateYear = Number(_interestRateYear.value);
+      const interestRateMonth = Number(interestRateYear / 1200);
+      const tenureMonth = Number(_tenureMonth.value);
+  
+      const emiReducing = getEmiReducing(principalAmount, tenureMonth, interestRateMonth);
+      const totalPaymentReducing = tenureMonth * emiReducing;
+      const totalInterestReducing = totalPaymentReducing - principalAmount;
+  
+      return {
+          emiReducing: emiReducing,
+          totalPaymentReducing: totalPaymentReducing,
+          totalInterestReducing: totalInterestReducing
+      };
+  }
+  
+  function calculateEMI() {
+      const emiReducing = reducingLoan().emiReducing;
+      document.getElementById("EMI").innerHTML = Number(emiReducing).toFixed(2).toString();
+  }
+  
+  function totalPayment() {
+      const totalPaymentReducing = reducingLoan().totalPaymentReducing;
+      document.getElementById("tPayment").innerHTML = Number(totalPaymentReducing).toFixed(2).toString();
+  }
+  
+  function totalInterest() {
+      const totalInterestReducing = reducingLoan().totalInterestReducing;
+      document.getElementById("tInterest").innerText = Number(totalInterestReducing).toFixed(2).toString();
+  }
+</pre>
+    </code>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h4>Simple Calculator</h4>
+<div class="container">
+    <div id="carousel-demo2" class="carousel slide" data-ride="carousel">
+    
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo2" data-slide-to="1"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gencHO1.jpg" class="" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="img/gencHO2.jpg" alt="">
+        </div>
+      </div>
+    
+      <a href="#carousel-demo2" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo2" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Code</button>
+  <div id="demo1" class="collapse">
+    <code>
+<pre class="code-fullwidth">
+
+</pre>
+      </code>
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
